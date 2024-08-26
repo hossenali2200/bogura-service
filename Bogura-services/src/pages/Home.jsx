@@ -5,6 +5,7 @@ import PopularHome from '../components/PopularHome'
 import Banner from '../components/Banner'
 import PopularCost from '../components/PopularCost'
 import Inbox from '../components/Inbox'
+import Work from '../components/Work'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Banner/>
       <PopularCost/>
       <Inbox/>
+      <Work/>
     </div>
   )
 }
