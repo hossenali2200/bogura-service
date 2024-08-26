@@ -71,12 +71,12 @@ const Navbar = () => {
       </div>
       <div className="bg-gray-100 hidden lg:block">
         <div className="flex justify-start divide-x-2 divide-slate-700 text-xl ">
-            <Link to='/'><p className="    p-2 px-4 text-slate-600 text-xl">Home</p></Link>
-            <Link to='/about'><p className="  p-2 px-4 text-slate-600 text-xl">About</p></Link>
-            <Link to='/services'><p className="  p-2 px-4 text-slate-600 text-xl">Services</p></Link>
-            <Link to='/category'><p className="  p-2 px-4 text-slate-600 text-xl">Category</p></Link>
-            <Link to='/company-list'><p className="  p-2 px-4 text-slate-600 text-xl">Company List</p></Link>
-            <Link to='/contact'><p className="  p-2 px-4 text-slate-600 text-xl">Contact</p></Link>
+            <Link to='/'><p className="    p-2 px-4 text-slate-600 text-xl hover:underline">Home</p></Link>
+            <Link to='/about'><p className="  p-2 px-4 text-slate-600 text-xl hover:underline">About</p></Link>
+            <Link to='/services'><p className="  p-2 px-4 text-slate-600 text-xl hover:underline">Services</p></Link>
+            <Link to='/category'><p className="  p-2 px-4 text-slate-600 text-xl hover:underline">Category</p></Link>
+            <Link to='/company-list'><p className="  p-2 px-4 text-slate-600 text-xl hover:underline">Company List</p></Link>
+            <Link to='/contact'><p className="  p-2 px-4 text-slate-600 text-xl hover:underline">Contact</p></Link>
         </div>
 
       </div>
