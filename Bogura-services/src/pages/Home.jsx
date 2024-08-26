@@ -6,6 +6,7 @@ import Banner from '../components/Banner'
 import PopularCost from '../components/PopularCost'
 import Inbox from '../components/Inbox'
 import Work from '../components/Work'
+import AppBanner from '../components/AppBanner'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <PopularCost/>
       <Inbox/>
       <Work/>
+      <AppBanner/>
     </div>
   )
 }
