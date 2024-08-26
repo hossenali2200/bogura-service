@@ -4,6 +4,7 @@ import { GiTap } from "react-icons/gi";
 import { GiLightBulb } from "react-icons/gi";
 import { IoMdConstruct } from "react-icons/io";
 import { FaHouseChimney } from "react-icons/fa6";
+import { IoIosSearch } from "react-icons/io";
 
 const Hero = () => {
   return (
@@ -23,8 +24,8 @@ const Hero = () => {
               className="bg-transparent w-full focus:outline-none pr-4 font-semibold border-0 focus:ring-0 px-0 py-0"
               name="topic"
             />
-            <button className="flex flex-row items-center justify-center min-w-[130px] px-4 rounded-full font-medium tracking-wide border disabled:cursor-not-allowed disabled:opacity-50 transition ease-in-out duration-150 text-base bg-black text-white font-medium tracking-wide border-transparent py-1.5 h-[38px] -mr-3">
-              Search
+            <button className="flex flex-row items-center justify-center min-w-[40px] p-2 rounded-full font-medium tracking-wide border disabled:cursor-not-allowed disabled:opacity-50 transition ease-in-out duration-150 text-base bg-red-500  text-white font-medium tracking-wide border-transparent py-1.5 h-[38px] -mr-3">
+            <IoIosSearch className="text-4xl" />
             </button>
           </form>
             </div>

@@ -4,13 +4,14 @@ import { IoIosArrowDown } from "react-icons/io";
 import { FaUserCircle } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 
+
 const Navbar = () => {
   return (
     <div>
       <div className="flex p-4 justify-between items-center border-b border-gray-300 flex-wrap">
         <div className="flex items-center">
           <Link to='/'><h2 className="font-bold lg:text-6xl text-4xl text-purple-600">
-            Bogura <span className=" text-red-700">Services</span>
+            Bogura <span className=" text-red-500">Services</span>
           </h2></Link>
         </div>
 
