@@ -7,6 +7,7 @@ import PopularCost from '../components/PopularCost'
 import Inbox from '../components/Inbox'
 import Work from '../components/Work'
 import AppBanner from '../components/AppBanner'
+import Grow from '../components/Grow'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Inbox/>
       <Work/>
       <AppBanner/>
+      <Grow/>
     </div>
   )
 }
